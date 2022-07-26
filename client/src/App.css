@@ -1,0 +1,22 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(/Users/nidaansari/my-app/pixeltype/Pixeltype.ttf);
+}
+
+audio { width: 200px; }
+
+body {
+    background: rgb(211,238,174);
+    background: radial-gradient(circle, rgba(211,238,174,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+.modal-title {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    bottom: 0;
+    left: 500px;
+    z-index: 10040;
+    font: pixelFont;
+}
